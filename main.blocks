@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="b_JTMbfy)Xr0tvf,Qx*S" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="GGvXuoNj^%4ly/x4MzHp"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="cYhpw}OQo]LmE}B_Qz$9"><field name="gesture">Gesture.Shake</field></block></value><statement name="DO0"><block type="basic_show_icon" id="ekos)PU57f6{Wg7b6?F0"><field name="i">IconNames.Square</field><next><block type="device_show_leds" id="og4U52tA8L?nn^c_Q3Da"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # . # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="QGSB#DxMe3$(l_ud}kik"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement><statement name="ELSE"><block type="basic_show_icon" id="y/7hnS@k@1:y/l_I4#hi"><field name="i">IconNames.Happy</field></block></statement></block></statement></block><block type="device_forever" id="ZqWchPI:hag3ryg9cXNh" x="375" y="27"><statement name="HANDLER"><block type="controls_if" id="_8I.XcBb`sSAj/Mlu,-."><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="w$(/N[w6OV.D-;KtS1U+"><field name="gesture">Gesture.Shake</field></block></value><statement name="DO0"><block type="playMelody" id="yn.B2J.+d9,gyP]KVgF:"><value name="melody"><shadow type="melody_editor" id="Z11|i((1n2mJgfk[Xhs|"><field name="melody">"B G B G B G B G "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="x#}6Ws@;wDn5v+I7N@@G"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></block></statement></block></statement></block></xml>
